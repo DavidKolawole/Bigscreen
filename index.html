@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Business Showcase</title>
+    <!-- Include Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+  <body>
+    <!-- Header Section -->
+    <header class="header">
+      <div class="logobox">
+        <img src="logo.png" alt="Logo" class="logo" />
+        <!-- You can replace the text with an actual logo image -->
+        <h1>BigScreen</h1>
+      </div>
+      <div class="search-bar">
+        <input type="text" placeholder="Search University of Ilorin" />
+      </div>
+      <div class="login-button">
+        <!-- Button to trigger the login pop-up -->
+        <button id="loginPopupButton">Log in as a Business</button>
+      </div>
+    </header>
+    <!-- Main Content Section -->
+    <main class="main-content">
+      <div class="gallery">
+        <!-- Example of a business card -->
+        <div class="business-card">
+            <img src="item7go.jpg" alt="Restaurant" />
+            <div class="business-info">
+              <h2>item7go</h2>
+              <p>Food, Restaurant</p>
+            </div>
+          </div>
+          <div class="business-card">
+            <img src="toyes.jpg" alt="Tech" />
+            <div class="business-info">
+              <h2>ToyesTech</h2>
+              <p>Gadgets, Tech</p>
+            </div>
+          </div>
+        <div class="business-card">
+          <img src="calculations.jpg" alt="Academics" />
+          <div class="business-info">
+            <h2>Expert Tutors</h2>
+            <p>Personal-tutor, Academics</p>
+          </div>
+        </div>
+        <div class="business-card">
+          <img src="rowsit.jpg" alt="Boutique" />
+          <div class="business-info">
+            <h2>Ademi Events</h2>
+            <p>Event-planning, Ceremony</p>
+          </div>
+        </div>
+       
+        <!-- More business cards -->
+      </div>
+    </main>
+    <!-- Login Pop-up Container -->
+    <div id="loginPopup" class="popup">
+      <div class="popup-content">
+        <span class="close-btn">&times;</span>
+        <h2>Log in as a Business</h2>
+        <form action="#" method="post" class="login-form">
+          <label for="email">Email:</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Enter your email"
+            required
+          />
+
+          <label for="password">Password:</label>
+          <input
+            type="password"
+            id="password"
+            name="password"
+            placeholder="Enter your password"
+            required
+          />
+
+          <button type="submit" class="login-btn">Log In</button>
+        </form>
+        <p class="signup-text">
+          Don't have an account? <a href="#">Sign up here</a>
+        </p>
+        <button id="visitorButton" class="visitor-btn">
+          Enter as a visitor
+        </button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+<!-- A PAGE  FOR BUSINESSES TO REGISTER THEIR BUSINESS ON BigScreen, 
+    
+    -Business name
+    -the tags
+    -the location (nearest reference point)
+    -active hours
+    -contact
+    -products and prices
+    -orderable or Stationary (CheckBox) -->
+
+    <!-- A div to search location and product-->
+     
